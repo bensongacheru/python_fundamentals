@@ -102,28 +102,7 @@ Applies the `decorator_func` decorator to a function.
   - `func` (function): The function to decorate.
 - **Returns**: The decorated function.
 
-## Usage
 
-Here's an example of how to use the functions and class:
-
-```python
-# Example usage
-from your_module import add_numbers, calculate_factorial, count_vowels, merge_dicts, is_even, reverse_string, sort_by_age, Car
-
-# Using the functions
-print(add_numbers(5, 7))
-print(calculate_factorial(5))
-print(count_vowels("Hello World"))
-print(merge_dicts({'a': 1, 'b': 2}, {'b': 3, 'c': 4}))
-print(is_even(6))
-print(reverse_string("hello"))
-
-# Using the Car class
-car = Car('Toyota', 'Corolla', 2020)
-car.display_info()
-
-# Sorting tuples
-print(sort_by_age([('Alice', 30), ('Bob', 25), ('Charlie', 35)]))
 
 
 ### `LICENSE`
